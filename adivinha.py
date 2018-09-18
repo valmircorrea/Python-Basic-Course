@@ -19,6 +19,5 @@ while (palpite != minha_preferida):                     # Loop condicional
     tentativas += 1
     if (palpite != minha_preferida):                    # Condicional
         print("Não é essa não, tente novamente!")       # saida padrão
-print("Muito bem, voce acertou. "
-      "Numero de tentativas = {}".format(tentativas))   # Formata o valor para concaternação na string
+print("Muito bem, voce acertou.\nNumero de tentativas = {}".format(tentativas))   # Formata o valor para concaternação na string
     
