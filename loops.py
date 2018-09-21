@@ -8,7 +8,7 @@ print(range(5))
 for ii in range(5):
     print(ii)
 
-# somatorio de 0 até 5, somando 2 a cada interação
+# ----------------- somatorio de 0 até 5, somando 2 a cada interação -----------------
 sum = 0
 for ii in range(0, 5, 2):
     print("Valor de ii: {}".format(ii))
@@ -18,7 +18,7 @@ for ii in range(0, 5, 2):
     
 print("Soma: {}".format(sum))
 
-# While
+# -------- While
 pp = 0
 while pp < 5:
     print(pp)
@@ -33,12 +33,12 @@ while (True):
         ll = ll + 1
         continue            # nesse caso é opcional
 
-# Imprimindo cada elemento de uma lista
+# ----------------- Imprimindo cada elemento de uma lista
 numbers = [2, 3, 4, 7, 8]
 for x in numbers:
     print(x);
 
-# Imprimindo cada elemento de um dicionario kk = nome e vv = nota
+# ----------------- Imprimindo cada elemento de um dicionario kk = nome e vv = nota
 grades = {"chemistry" : 10 , "history" : 8 , "math" : 9}
 for kk, vv in grades.items():
     if vv >= 9:
