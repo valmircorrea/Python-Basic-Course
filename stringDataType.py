@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 # stringDataType.
 
-# Verificando o tipo da variavel
+#  -------- Verificando o tipo da variavel
 name = "Valmir"
 print("\t Tipo da variavel: {}".format(type(name)))
 
@@ -10,19 +10,19 @@ print(quote)
 quote = '"How do you do?"'
 print(quote)
 
-# Quebra de linha
+# -------- Quebra de linha
 newLine = "Line\n New line"
 print(newLine)
 
-# Tab
+# -------- Tab
 newTab = "column1\t column2"
 print(newTab)
 
-# Concaternação de strings
+# -------- Concaternação de strings
 add = "hello" + " " + "there!"
 print(add)
 
-# Metodos 
+# ----------------- Metodos -----------------
 
 # Acessando letra "h" da string (index)
 print(add[0])  
